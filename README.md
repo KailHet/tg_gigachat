@@ -9,7 +9,7 @@
 
 ## Подключение сертификата к Node приложению 
 
-1. `npm install npm -g --ca=null`
+1. `npm install npm -g --ca=null` Если вылезла ошибка - это нормально
 2. `export NODE_TLS_REJECT_UNAUTHORIZED=0`
 3. `npm config set cafile ПУТЬ/К/СЕРТИФИКАТУ.pem`
 4. `npm config set strict-ssl false`
