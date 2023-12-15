@@ -2,8 +2,11 @@
 
 Телеграм бот с GigaChat API 
 
-# Установка Linux
-Для начала нужно подключить сертификат НУЦ Минцифры к Node приложению: https://developers.sber.ru/docs/ru/gigachat/certificates
+# Установка на Linux
+
+Перейдите в папку с ботом и пропишите `npm i`
+
+Необходимо подключить сертификат НУЦ Минцифры к Node приложению: https://developers.sber.ru/docs/ru/gigachat/certificates
 
 Там есть сертификат для линукса, нажимаешь `прямой ссылке` (либо тыкни здесь [скачать](https://gu-st.ru/content/Other/doc/russiantrustedca.pem)), скачается сертификат с расширением `pem`, его нужно закинуть в любое место на машинку с ботом
 
